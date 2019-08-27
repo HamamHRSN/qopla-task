@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/qopla-task/static/css/main.343d77c5.chunk.css",
+    "main.js": "/qopla-task/static/js/main.6e0306fb.chunk.js",
+    "main.js.map": "/qopla-task/static/js/main.6e0306fb.chunk.js.map",
+    "runtime~main.js": "/qopla-task/static/js/runtime~main.f91fff3a.js",
+    "runtime~main.js.map": "/qopla-task/static/js/runtime~main.f91fff3a.js.map",
+    "static/js/2.dbf0b65c.chunk.js": "/qopla-task/static/js/2.dbf0b65c.chunk.js",
+    "static/js/2.dbf0b65c.chunk.js.map": "/qopla-task/static/js/2.dbf0b65c.chunk.js.map",
+    "index.html": "/qopla-task/index.html",
+    "precache-manifest.3c7b7c853113c7b5b1153c21da4de5f3.js": "/qopla-task/precache-manifest.3c7b7c853113c7b5b1153c21da4de5f3.js",
+    "service-worker.js": "/qopla-task/service-worker.js",
+    "static/css/main.343d77c5.chunk.css.map": "/qopla-task/static/css/main.343d77c5.chunk.css.map"
+  }
+}
