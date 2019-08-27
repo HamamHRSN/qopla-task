@@ -1,0 +1,33 @@
+// Base Settings
+@import './base/settings';
+@import './base/global';
+
+
+
+// Components
+@import './components/Menus';
+@import './components/MenuProductCategories';
+@import './components/MenuBundleProducts';
+
+
+
+
+
+
+
+
+
+// NavApp Style  
+
+.taskInfo{
+    border: 4px dashed lighten($mainFontColor, 20%);
+    padding: $size-l;
+    font-size: $size-m;
+    margin: 10px  auto;
+    background: $mainNavBackground;
+    color: $fontWightColor;
+
+    h2{
+        color: $mainFontColor;
+    }
+}

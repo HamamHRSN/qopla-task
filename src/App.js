@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Menus from './components/Menus';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+      <div className="App">
+             
+             <div className="container">
+
+               <div className="taskInfo">
+                  <h1>qopla.com</h1> 
+                  <h2>Task</h2>
+                  <p>2019-08-26</p>
+                </div> 
+
+                <Menus />  {/* Main Menu Containing   2 menus */}
+             </div>
+
+      </div>
+    );
+  }
+
+
 
 export default App;

@@ -1,0 +1,1685 @@
+{"menus": [{
+    "name" : "Lunch",
+    "companyId" : "chopchopBoland",
+    "description" : "Lunch med dagens lunchpriser",
+    "menuProductCategories" : [ 
+        {
+            "_id" : "45a9a414-65fe-432e-809f-41e8fd391f33",
+            "name" : "Menyer",
+            "sortOrder" : 0,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [],
+            "menuBundleProducts" : [ 
+                {
+                    "_id" : "fecec41c-d6f5-4178-979c-79ad3ef3e8c1",
+                    "refBundleProduct" : {
+                        "name" : "Combo",
+                        "description" : "1 Bas + 2 Rätter\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 24,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Combo.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "f13e7f11-868b-4540-a19f-c3d21b449d59",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "34ab0d5a-3550-431e-966e-b3963892f155",
+                                "limit" : 2,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Combo",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "0b5efe5b-0c57-4cec-bbb3-17638e33162d",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd214", 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216", 
+                                    "5d5bb50ff7831a5104cdd217"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "price" : 55.0,
+                    "sortOrder" : 0,
+                    "color" : "",
+                    "bundleCategoryColors" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "f4424e1c-3fa4-4b0e-b362-485d9baa2f0f",
+                    "refBundleProduct" : {
+                        "name" : "Single",
+                        "description" : "1 Bas + Rätt\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 95.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 23,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Single.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "06299553-6c92-4ed4-a811-ec1403e96326",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "586ff3b4-c307-456f-afd6-60cc0b9a27eb",
+                                "limit" : 1,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Single",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "a73ad43e-aa8b-46ce-9768-a83b7dd7e928",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd214", 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216", 
+                                    "5d5bb50ff7831a5104cdd217"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "price" : 55.0,
+                    "sortOrder" : 1,
+                    "color" : "",
+                    "bundleCategoryColors" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "8e1d2b69-d516-47cd-a226-1229e701021f",
+                    "refBundleProduct" : {
+                        "name" : "Kids",
+                        "description" : "1 Liten bas + 1 Liten Rätt\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 55.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 25,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Kids.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "bc948f5d-aaee-44ab-9522-d41dfd7815b9",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "163da094-9ff1-405f-92b5-e2055dcb29e4",
+                                "limit" : 1,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Kids",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "bab7c6c7-8f1c-424f-b65b-f4b49298fc57",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "color" : "",
+                    "bundleCategoryColors" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "6623469e-d156-4c5f-a216-ddd8eb8a3f05",
+            "name" : "Dryck",
+            "sortOrder" : 1,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "6a0cf13e-d199-4a9d-a130-81f7d0e38e10",
+                    "refProduct" : {
+                        "name" : "Läsk",
+                        "description" : "",
+                        "defaultPrice" : 0.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "Läsk (0,3L)",
+                                    "price" : 14.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Läsk (0,4L)",
+                                    "price" : 17.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Läsk (0,5L)",
+                                    "price" : 20.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [ 
+                                {
+                                    "name" : "Cola",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Cola Zero",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Fanta",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Sprite Zero",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Lingondricka",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Äppeldricka",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 19,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/laesk.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "d1813a7f-2fbd-49a9-b224-1d632b95a52b",
+                    "refProduct" : {
+                        "name" : "Mer apelsin",
+                        "description" : "apelsinsmak",
+                        "defaultPrice" : 12.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 20,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/apelsinMer.jpg",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "ada3b8d9-a266-40ae-9f47-7136f25d45e7",
+                    "refProduct" : {
+                        "name" : "Mer päron",
+                        "description" : "päronsmak",
+                        "defaultPrice" : 12.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 21,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/paronMer.jpg",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "8e51be91-e1aa-43aa-b884-d1de963fc072",
+                    "refProduct" : {
+                        "name" : "Lättöl",
+                        "description" : "lättöl",
+                        "defaultPrice" : 14.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 22,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/lattol.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "1d5cd350-da3e-471d-962f-d829658fa85c",
+            "name" : "Tillbehör",
+            "sortOrder" : 2,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "e3406d5d-0e3b-46cb-b918-008dc5643512",
+                    "refProduct" : {
+                        "name" : "Räkchips",
+                        "description" : "Spröda räkchips – perfekt som förrätt!",
+                        "defaultPrice" : 18.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "Liten",
+                                    "price" : 18.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Stor",
+                                    "price" : 28.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 14,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Ra%CC%88kchips.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "cc20514d-72f8-4175-810a-c754cf7821b5",
+                    "refProduct" : {
+                        "name" : "Vårrullar",
+                        "description" : "Krispiga vegetariska vårrullar med sweet chilisås.",
+                        "defaultPrice" : 15.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "4st",
+                                    "price" : 15.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "6st",
+                                    "price" : 20.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 15,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/springRolls.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "b2c1db79-6a02-4653-91a2-f10e8804daad",
+                    "refProduct" : {
+                        "name" : "Karage",
+                        "description" : "Friterad kyckling",
+                        "defaultPrice" : 19.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "2st",
+                                    "price" : 19.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "4st",
+                                    "price" : 35.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 16,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Karate_Chicken.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "f25e004d-553a-4570-acc7-55940f060922",
+                    "refProduct" : {
+                        "name" : "Jordnötter",
+                        "description" : "Rostade jordnötter, härligt knapriga och salta.",
+                        "defaultPrice" : 6.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "articleNumber" : 17,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/jordno%CC%88tter.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "416447ab-07e5-4648-9890-2bf9f4da6721",
+                    "refProduct" : {
+                        "name" : "Cashew",
+                        "description" : "Rostade cashewnötter, underbart knapriga och smakrika.",
+                        "defaultPrice" : 11.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "articleNumber" : 18,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/cashewNuts.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 4,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }
+    ],
+    "activeHours" : [ 
+        {
+            "dayOfWeek" : "MONDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "TUESDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "WEDNESDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "THURSDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "FRIDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "SATURDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "SUNDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }
+    ],
+    "disabled" : false,
+    "deleted" : false
+},
+{
+    "name" : "A la carte",
+    "companyId" : "chopchopBoland",
+    "description" : "Detta är á la carte menyn för vår restaurang",
+    "menuProductCategories" : [ 
+        {
+            "_id" : "336c467f-3973-44f5-99aa-5631605b1efd",
+            "name" : "Signature",
+            "sortOrder" : 0,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [],
+            "menuBundleProducts" : [ 
+                {
+                    "_id" : "d12f40d0-5baa-4a6e-b15f-996e0b96154a",
+                    "refBundleProduct" : {
+                        "name" : "Bangkok Beef",
+                        "description" : "WOKAT OXINNANLÅR MED BASILIKA,\n GRÖNSAKER OCH SOCKERÄRTOR I EN\n HET OSTRONSÅS.",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fd",
+                        "articleNumber" : 32,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/BANGKOK-Beef.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "1fca73e9-ded6-46b3-bd9d-e956ddc699b3",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "5082be94-bb90-4eb7-9ba4-30e7728514e8",
+                    "refBundleProduct" : {
+                        "name" : "Kung Pao Chicken",
+                        "description" : "WOKAD SVENSK KYCKLINGLÅRFILÉ\n I EN STARKSYRLIG SÅS, GRÖNSAKER\n OCH JORDNÖTTER.",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fd",
+                        "articleNumber" : 33,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Kung_Pao.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "9081b835-df3b-40a7-83e0-471c31d58c99",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "5b1ac1b6-928d-4eda-a920-67b437d010f5",
+                    "refBundleProduct" : {
+                        "name" : "Shaolin Oumph!",
+                        "description" : "WOKAD OUMPH! MED SOCKERÄRTOR OCH GRÖNSAKER I EN VEGANSK \n SOJASÅS.",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fd",
+                        "articleNumber" : 34,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Shaolin_Oumph!.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "962f4554-217d-456c-b5c1-6240d0937c70",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "13185567-d3c4-4121-83df-3518d7b2a4e3",
+                    "refBundleProduct" : {
+                        "name" : "Shanghai Oumph! (Noodles)",
+                        "description" : "Wokade färska nudlar med Oumph! och grönsaker.",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fd",
+                        "articleNumber" : 35,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Shanghai_Oumph!_(Noodles).png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "55ccf3e6-7c7d-4282-8738-7f7e44ce0a72",
+                                "limit" : 1,
+                                "name" : "Sås",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd21b", 
+                                    "5d5bb50ff7831a5104cdd21c", 
+                                    "5d5bb50ff7831a5104cdd21d"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "489c610f-6837-451e-be9f-dc21847fb00c",
+                    "refBundleProduct" : {
+                        "name" : "Shanghai Chicken (Noodles)",
+                        "description" : "Wokade färska nudlar med svensk kycklinglårfilé och grönsaker.",
+                        "defaultPrice" : 99.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fd",
+                        "articleNumber" : 36,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/shanghai_chicken.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "8433d24e-e6d6-45bc-a0bd-950a99d43812",
+                                "limit" : 1,
+                                "name" : "Sås",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd21b", 
+                                    "5d5bb50ff7831a5104cdd21c", 
+                                    "5d5bb50ff7831a5104cdd21d"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 4,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "1f54893c-38b4-49cc-a233-c993f94d93ae",
+            "name" : "Baser",
+            "sortOrder" : 1,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "b7f129bd-5e8c-4c10-bfe9-e8e2a3d4ea17",
+                    "refProduct" : {
+                        "name" : "Rice",
+                        "description" : "Kokt jasminris",
+                        "defaultPrice" : 29.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fc",
+                        "articleNumber" : 10,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/rice-600pxl.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "07f9c6cd-e6c2-4a5d-b040-173dd7061649",
+                    "refProduct" : {
+                        "name" : "Fried Rice",
+                        "description" : "Stekt ris med morötter, majs, ärtor och ägg.",
+                        "defaultPrice" : 29.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fc",
+                        "articleNumber" : 12,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/friedRice-600pxl.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "a9b286fe-6729-4a83-bc40-df3b07104f58",
+                    "refProduct" : {
+                        "name" : "Chow Mein",
+                        "description" : "Wokade nudlar med morötter, purjolök, vitkål och ägg.",
+                        "defaultPrice" : 29.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fc",
+                        "articleNumber" : 13,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/chowMein-600pxl.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "c7e99020-38bd-4ffd-a0ef-68635c950671",
+            "name" : "Rätter",
+            "sortOrder" : 2,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "0341c9ba-897c-459d-9abe-11cf7723ab7f",
+                    "refProduct" : {
+                        "name" : "Peanut Chicken",
+                        "description" : "Stekt kycklingfilé lagad i vår jordnötssås.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 1,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/PeanutChicken.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "0bfbd370-a611-435a-94da-b85dc3e5ec25",
+                    "refProduct" : {
+                        "name" : "Bamboo Beef",
+                        "description" : "Oxinnanlår wokad med bambuskott och champinjoner.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 2,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Bamboo-Beef.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "c2e3a2b5-b3d9-467b-ac73-21504d0c3d3d",
+                    "refProduct" : {
+                        "name" : "Orange Chicken",
+                        "description" : "Lättfriterad kycklingfilé wokad i vår sötsura sås med apelsinsmak.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 3,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/OrangeChicken.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "4bcdbf3f-f24f-4f3d-9c50-723ca44e1680",
+                    "refProduct" : {
+                        "name" : "Spicy Lime Chicken",
+                        "description" : "Lättfriterad kycklingfilé wokad med färska grönsaker (lök, röd och grön paprika) i vår chili- och limesås, toppad med färsk lime.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 4,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Spicy.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "1c1f1425-56be-4690-92df-6462d7dc4c7d",
+                    "refProduct" : {
+                        "name" : "Yakiniku",
+                        "description" : "Strimlad högrev i söt sojasås som serveras med yakinikusås, vårlök och sesamfrön.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "modifications" : {
+                            "sizes" : [],
+                            "flavours" : [ 
+                                {
+                                    "name" : "Yakiniku",
+                                    "price" : 0.0,
+                                    "addonPrice" : 5.0
+                                }
+                            ],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 5,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Yakiniku.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 4,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "b4781c84-f99b-423d-b1df-bd6a301e435b",
+                    "refProduct" : {
+                        "name" : "Pak Choi",
+                        "description" : "Wokad Pak Choi med grönsaker och vegetarisk ostronsås",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 6,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Pak_Choi_Vegansk.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 5,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "96def9ad-ff18-40db-bb65-22a1b9334aa3",
+                    "refProduct" : {
+                        "name" : "Cashew Chicken",
+                        "description" : "Kycklingfilé wokad med färska grönsaker (röd och grön paprika, lök, zucchini) och rostade cashewnötter i vår cashewsås.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 7,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/CashewChick.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 6,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "dae07c8e-08f9-4213-9a3b-99ed252ad822",
+                    "refProduct" : {
+                        "name" : "Thai Chicken Curry",
+                        "description" : "Kycklingfilé lagad i vår rödcurrysås med kokosmjölk och bambuskott, toppad med röd och grön paprika.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "articleNumber" : 8,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/ThaiChickenCurry.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 7,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "56e268e4-096f-4204-bcaf-21debb598f05",
+                    "refProduct" : {
+                        "name" : "Teriyaki Salmon",
+                        "description" : "Lättfriterad lax som serveras med teriyakisås, toppad med färsk vårlök och sesamfrön.",
+                        "defaultPrice" : 75.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1fe",
+                        "modifications" : {
+                            "sizes" : [],
+                            "flavours" : [ 
+                                {
+                                    "name" : "Teriyaki",
+                                    "price" : 0.0,
+                                    "addonPrice" : 5.0
+                                }
+                            ],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 9,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Salmon.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 8,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "af99de20-f4a2-4cfe-b1ec-04aa898bc0c5",
+            "name" : "Menyer",
+            "sortOrder" : 3,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [],
+            "menuBundleProducts" : [ 
+                {
+                    "_id" : "a36484b8-7c07-4258-b833-7467d1d10c82",
+                    "refBundleProduct" : {
+                        "name" : "Combo",
+                        "description" : "1 Bas + 2 Rätter\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 105.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 24,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Combo.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "faddb7a7-f716-4fb8-9131-9f6e2db88a98",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "0817112f-1e4f-47d5-805e-0de73a2a3186",
+                                "limit" : 2,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Combo",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "b6ef505a-02f2-4ab9-8069-24523e5d32d8",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd214", 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216", 
+                                    "5d5bb50ff7831a5104cdd217"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "6530ed18-dd7d-463d-8e7a-3cca62424fe6",
+                    "refBundleProduct" : {
+                        "name" : "Single",
+                        "description" : "1 Bas + Rätt\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 95.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 23,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Single.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "9c76cbdf-fb58-4cc8-a22d-fd35631a12f8",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "c58776a1-f77e-4a20-a433-6f9e51b1bd59",
+                                "limit" : 1,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Single",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "2d24a442-e4a6-4e96-81a1-4e0c432fde0a",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd214", 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216", 
+                                    "5d5bb50ff7831a5104cdd217"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "0d3365c6-bc9e-4808-a34b-af6f86f9e9bb",
+                    "refBundleProduct" : {
+                        "name" : "Kids",
+                        "description" : "1 Liten bas + 1 Liten Rätt\n (Läsk ingår vardagar till 15.00) Övrig tid +5:-",
+                        "defaultPrice" : 55.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd1ff",
+                        "articleNumber" : 25,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Kids.png",
+                        "bundleProductCategories" : [ 
+                            {
+                                "_id" : "74bdc59a-9b0e-4958-b744-5dbedd4bf835",
+                                "limit" : 1,
+                                "name" : "Bas",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd20c", 
+                                    "5d5bb50ff7831a5104cdd20d", 
+                                    "5d5bb50ff7831a5104cdd20e"
+                                ]
+                            }, 
+                            {
+                                "_id" : "8e05592d-d8f6-417e-9883-604670627ebf",
+                                "limit" : 1,
+                                "name" : "Rätt",
+                                "kdsUnitDisplayName" : "Kids",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd203", 
+                                    "5d5bb50ff7831a5104cdd204", 
+                                    "5d5bb50ff7831a5104cdd205", 
+                                    "5d5bb50ff7831a5104cdd206", 
+                                    "5d5bb50ff7831a5104cdd207", 
+                                    "5d5bb50ff7831a5104cdd208", 
+                                    "5d5bb50ff7831a5104cdd209", 
+                                    "5d5bb50ff7831a5104cdd20a", 
+                                    "5d5bb50ff7831a5104cdd20b"
+                                ]
+                            }, 
+                            {
+                                "_id" : "94525036-8def-4687-85e5-92e2c6fe6655",
+                                "limit" : 1,
+                                "name" : "Dryck",
+                                "refProductIdList" : [ 
+                                    "5d5bb50ff7831a5104cdd215", 
+                                    "5d5bb50ff7831a5104cdd216"
+                                ]
+                            }
+                        ],
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "bundleCategoryColors" : [],
+                    "menuBundleModifications" : [],
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "59eaf142-bc83-4340-aff4-b0d2eb8f1e45",
+            "name" : "Dryck",
+            "sortOrder" : 4,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "6080ecdc-c54e-4dc4-ae33-f3236625e57e",
+                    "refProduct" : {
+                        "name" : "Läsk",
+                        "description" : "",
+                        "defaultPrice" : 0.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "Läsk (0,3L)",
+                                    "price" : 14.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Läsk (0,4L)",
+                                    "price" : 17.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Läsk (0,5L)",
+                                    "price" : 20.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [ 
+                                {
+                                    "name" : "Cola",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Cola Zero",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Fanta",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Sprite Zero",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Lingondricka",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Äppeldricka",
+                                    "price" : 0.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 19,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/laesk.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "10b96cb6-6aa6-480a-b562-251321eec423",
+                    "refProduct" : {
+                        "name" : "Mer apelsin",
+                        "description" : "apelsinsmak",
+                        "defaultPrice" : 12.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 20,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/apelsinMer.jpg",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "129750d5-40f0-481e-b767-7b601dd712e5",
+                    "refProduct" : {
+                        "name" : "Mer päron",
+                        "description" : "päronsmak",
+                        "defaultPrice" : 12.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 21,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/paronMer.jpg",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "d7cf899e-b283-4805-99f3-3a7209d2f751",
+                    "refProduct" : {
+                        "name" : "Lättöl",
+                        "description" : "lättöl",
+                        "defaultPrice" : 14.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd200",
+                        "articleNumber" : 22,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/lattol.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "ec6992e5-e875-4619-9593-9e52cf28c9e3",
+            "name" : "Såser",
+            "sortOrder" : 5,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "e480d5dc-4c3d-458f-84c7-0ab25ce253b6",
+                    "refProduct" : {
+                        "name" : "Nuoc Nam",
+                        "description" : "Nuoc nam",
+                        "defaultPrice" : 10.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 26,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Nuoc_Nam_sauce.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "c4d39834-a090-469c-8e60-936b58872a15",
+                    "refProduct" : {
+                        "name" : "Dandan",
+                        "description" : "",
+                        "defaultPrice" : 10.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 27,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/DanDan_sauce.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "9ba8043b-9782-4e23-bb27-c3363c537f95",
+                    "refProduct" : {
+                        "name" : "Shoyu",
+                        "description" : "",
+                        "defaultPrice" : 10.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 28,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Shoyu_sauce.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "634297c9-c593-4dd9-82b8-4624057d81ee",
+                    "refProduct" : {
+                        "name" : "Sweet Chili",
+                        "description" : "",
+                        "defaultPrice" : 5.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 29,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/sweet-chili.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "4405ad26-028e-47bf-8055-75ed125ca6f7",
+                    "refProduct" : {
+                        "name" : "Sriracha Majonnäs",
+                        "description" : "",
+                        "defaultPrice" : 8.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 30,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/mayo.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 4,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "14e31912-2870-4b97-8e49-b9f574d57ea1",
+                    "refProduct" : {
+                        "name" : "Sambal",
+                        "description" : "",
+                        "defaultPrice" : 8.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd201",
+                        "articleNumber" : 31,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/sambal-oelek.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 5,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }, 
+        {
+            "_id" : "6c73a4c3-a5d4-44fe-8a94-406d5775381d",
+            "name" : "Tillbehör",
+            "sortOrder" : 6,
+            "upsellCategory" : false,
+            "upsellCategoryAtPayment" : false,
+            "menuProducts" : [ 
+                {
+                    "_id" : "cc5066ac-424d-4a01-af55-738b6603886e",
+                    "refProduct" : {
+                        "name" : "Räkchips",
+                        "description" : "Spröda räkchips – perfekt som förrätt!",
+                        "defaultPrice" : 18.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "Liten",
+                                    "price" : 18.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "Stor",
+                                    "price" : 28.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 14,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Ra%CC%88kchips.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 0,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "585b7a72-ed38-4cee-b260-b86ca30be870",
+                    "refProduct" : {
+                        "name" : "Vårrullar",
+                        "description" : "Krispiga vegetariska vårrullar med sweet chilisås.",
+                        "defaultPrice" : 15.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "4st",
+                                    "price" : 15.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "6st",
+                                    "price" : 20.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 15,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/springRolls.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 1,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "f74b37a6-953a-4a15-aac6-c9163b40d55f",
+                    "refProduct" : {
+                        "name" : "Karage",
+                        "description" : "Friterad kyckling",
+                        "defaultPrice" : 19.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "modifications" : {
+                            "sizes" : [ 
+                                {
+                                    "name" : "2st",
+                                    "price" : 19.0,
+                                    "addonPrice" : 0.0
+                                }, 
+                                {
+                                    "name" : "4st",
+                                    "price" : 35.0,
+                                    "addonPrice" : 0.0
+                                }
+                            ],
+                            "flavours" : [],
+                            "types" : [],
+                            "other" : []
+                        },
+                        "articleNumber" : 16,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/Karate_Chicken.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 2,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "13e7676a-8e55-458a-80c0-b85951b42a08",
+                    "refProduct" : {
+                        "name" : "Jordnötter",
+                        "description" : "Rostade jordnötter, härligt knapriga och salta.",
+                        "defaultPrice" : 6.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "articleNumber" : 17,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/jordno%CC%88tter.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 3,
+                    "disabled" : false,
+                    "deleted" : false
+                }, 
+                {
+                    "_id" : "7d051824-7bce-452f-a29d-9bb41d0ac521",
+                    "refProduct" : {
+                        "name" : "Cashew",
+                        "description" : "Rostade cashewnötter, underbart knapriga och smakrika.",
+                        "defaultPrice" : 11.0,
+                        "vatRate" : 12.0,
+                        "companyId" : "chopchopBoland",
+                        "refProductCategoryId" : "5d5bb50ff7831a5104cdd202",
+                        "articleNumber" : 18,
+                        "imageUrl" : "https://s3-eu-west-1.amazonaws.com/qopla-dev/cc/product/cashewNuts.png",
+                        "allergens" : [],
+                        "disabled" : false,
+                        "deleted" : false
+                    },
+                    "sortOrder" : 4,
+                    "disabled" : false,
+                    "deleted" : false
+                }
+            ],
+            "menuBundleProducts" : [],
+            "disabled" : false,
+            "deleted" : false
+        }
+    ],
+    "activeHours" : [ 
+        {
+            "dayOfWeek" : "MONDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "TUESDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "WEDNESDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "THURSDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "FRIDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "SATURDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }, 
+        {
+            "dayOfWeek" : "SUNDAY",
+            "startingHour" : "09:00",
+            "stoppingHour" : "23:59",
+            "holiday" : false,
+            "closed" : false
+        }
+    ],
+    "disabled" : false,
+    "deleted" : false
+}]}

@@ -1,0 +1,11 @@
+.MenuProductCategories{
+    border: 2px solid $fontWightColor;
+    padding: $size-m;
+    margin: $size-m;
+    background: $productBackground;
+    color: $fontWightColor;
+    font-size: $size-s;
+    box-shadow: 0px 0px 2px 1px $mainNavBackground;
+    cursor: pointer; 
+    
+}

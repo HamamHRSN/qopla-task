@@ -1,0 +1,24 @@
+.Menus {
+    background: $mainMenuBackground;
+    padding: $size-l;
+    margin: $size-l;
+    box-shadow: 0px 0px 5px 0px $mainNavBackground;
+    cursor: pointer; 
+
+    .menuInfo{
+        line-height: $size-xl;
+        font-size: $size-s;
+        color: $fontWightColor;
+
+        h1{
+            font-size: $size-xl;
+        }
+
+
+        p{
+            font-size: $size-l;
+            color: $mainNavBackground;
+            font-weight: bold;
+        }
+    }
+}

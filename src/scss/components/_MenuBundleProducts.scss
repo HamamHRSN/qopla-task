@@ -1,0 +1,57 @@
+.MenuBundleProducts{
+    background: $fontWightColor;
+    margin: $size-m;
+    box-shadow:  0px 0px 5px 1px $mainNavBackground;
+    display: inline-block;
+    max-width: 250px;
+    min-height: 310px;
+    white-space: wrap;
+    cursor: pointer; 
+
+        h2{
+            color: $mainNavBackground;
+            font-weight: bold;
+            padding: $size-m;
+        }
+
+        p{
+            color: $mainMenuBackground;
+            min-height: 135px;
+            padding: $size-s;
+            margin: $size-m 0 0 0;
+            font-size: $size-m;
+        }
+
+        .itemPhoto {
+           padding: $size-s;
+           width: 100%;
+           margin:  auto;
+           position: relative;
+        
+
+        /*Artical*/
+        //    h3{
+        //     position: absolute;
+        //     top: -16px;
+        //     left: -22px;
+        //     background: #c75e5e;   // lite red
+        //     padding: $size-m;
+        //     color: $fontWightColor;
+        //     border-radius: 10%;
+        //    }
+}
+
+        .defaultPrice{
+            background: $mainNavBackground;
+            max-width: 100px;
+            color: $fontWightColor;
+            padding: $size-m;
+            margin: $size-m auto;
+            font-weight: bold;
+            font-size: $size-m;
+            border: $bordersColor;            
+        }
+}
+
+
+
